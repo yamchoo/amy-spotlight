@@ -43,7 +43,7 @@ function Appearance({
 export const metadata: Metadata = {
   title: 'Speaking',
   description:
-    'I’ve spoken at events all around the world and been interviewed for many podcasts.',
+    'I am passionate about public speaking and loved onboarding groups of new hires. Explaining complex technical solutions is a fantastic challenge, and I love getting people engaged and leaving with a better sense of understanding and excitement about the work we do',
 }
 
 export default function Speaking() {

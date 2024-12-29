@@ -11,37 +11,37 @@ import logoPlanetaria from '@/images/logos/planetaria.svg'
 
 const projects = [
   {
-    name: 'Planetaria',
+    name: 'Epoch 1',
     description:
-      'Creating technology to empower civilians to explore space on their own terms.',
+      'Employee Orientation.',
     link: { href: 'http://planetaria.tech', label: 'planetaria.tech' },
     logo: logoPlanetaria,
   },
   {
-    name: 'Animaginary',
+    name: 'Epoch 2',
     description:
-      'High performance web animation library, hand-written in optimized WASM.',
+      'Product Design',
     link: { href: '#', label: 'github.com' },
     logo: logoAnimaginary,
   },
   {
-    name: 'HelioStream',
+    name: 'Epoch 3',
     description:
-      'Real-time video streaming library, optimized for interstellar transmission.',
+      'Graphic Art & Video Production.',
     link: { href: '#', label: 'github.com' },
     logo: logoHelioStream,
   },
   {
-    name: 'cosmOS',
+    name: 'Epoch 4',
     description:
-      'The operating system that powers our Planetaria space shuttles.',
+      'Solutions Presentation & Marketing',
     link: { href: '#', label: 'github.com' },
     logo: logoCosmos,
   },
   {
-    name: 'OpenShuttle',
+    name: 'Epoch 5',
     description:
-      'The schematics for the first rocket I designed that successfully made it to orbit.',
+      'Creative Services & Solutions',
     link: { href: '#', label: 'github.com' },
     logo: logoOpenShuttle,
   },
