@@ -1,4 +1,5 @@
 import { type Metadata } from 'next'
+import { Poppins } from 'next/font/google'
 
 import { Providers } from '@/app/providers'
 import { Layout } from '@/components/Layout'
@@ -20,13 +21,25 @@ export const metadata: Metadata = {
   },
 }
 
+// 1) Import Poppins from next/font/google:
+const poppins = Poppins({
+  weight: ['400', '600'],   // adjust weights as needed
+  subsets: ['latin'],       // or ['latin-ext'] if you need more
+  variable: '--font-poppins'  // optional CSS variable name
+})
+
 export default function RootLayout({
   children,
 }: {
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" className="h-full antialiased" suppressHydrationWarning>
+    // 2) Apply the Poppins variable to <html> so everything can inherit it:
+    <html
+      lang="en"
+      className={`h-full antialiased ${poppins.variable}`}
+      suppressHydrationWarning
+    >
       <body className="flex h-full bg-zinc-50 dark:bg-black">
         <Providers>
           <div className="flex w-full">
