@@ -24,5 +24,12 @@ export default {
       '9xl': ['8rem', { lineHeight: '1' }],
     },
     typography: typographyStyles,
+    extend: {
+      fontFamily: {
+        // This assumes you're loading Poppins via next/font or a <link> so
+        // "var(--font-poppins)" is already defined. Otherwise, replace with "Poppins".
+        poppins: ['var(--font-poppins)', 'sans-serif'],
+      },
+    },
   },
 } satisfies Config
