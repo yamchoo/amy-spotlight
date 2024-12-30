@@ -277,7 +277,7 @@ export default async function Home() {
 
         <div className="max-w-2xl">
           <h1 className="text-4xl font-['Poppins'] tracking-tight inline-block bg-gradient-to-r bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-pink-500 to-90% bg-clip-text text-7xl text-transparent sm:text-5xl dark:inline-block bg-gradient-to-r bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-pink-500 to-90% bg-clip-text text-7xl text-transparent">
-          Creating Beautiful, Efficient Solutions for Life and Work.
+          Creating beautiful, efficient solutions for life and work.
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
           I’m Amy, a marketing-minded designer passionate about creating real-life solutions to everyday problems. Based in Vancouver, BC, I develop processes and technologies that empower people to transform their spaces and workflows through creativity, technology, and thoughtful design.          </p>
