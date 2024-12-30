@@ -113,7 +113,7 @@ function SocialLink({
 function Newsletter() {
   return (
     <form
-      action="https://formspree.io/f/xy12345?_next=https://amychou.netlify.app/thank-you"
+      action="https://formspree.io/f/xwppqwed?_next=https://amychou.netlify.app/thank-you"
       className="rounded-2xl border border-zinc-100 p-6 dark:border-zinc-700/40"
       method="POST"
      >
