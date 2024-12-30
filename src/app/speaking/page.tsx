@@ -4,7 +4,7 @@ import { Card } from '@/components/Card'
 import { Section } from '@/components/Section'
 import { SimpleLayout } from '@/components/SimpleLayout'
 
-function SpeakingSection({
+function speakingSection({
   children,
   ...props
 }: React.ComponentPropsWithoutRef<typeof Section>) {
@@ -41,19 +41,19 @@ function Appearance({
 }
 
 export const metadata: Metadata = {
-  title: 'Speaking',
+  title: 'Wisdom',
   description:
-    'I am passionate about public speaking and loved onboarding groups of new hires. Explaining complex technical solutions is a fantastic challenge, and I love getting people engaged and leaving with a better sense of understanding and excitement about the work we do',
+    'I am passionate about continuous learning. Here are some wise speaking I’ve gathered along the way. ',
 }
 
-export default function Speaking() {
+export default function speaking() {
   return (
     <SimpleLayout
       title="I’ve spoken at events all around the world and been interviewed for many podcasts."
       intro="One of my favorite ways to share my ideas is live on stage, where there’s so much more communication bandwidth than there is in writing, and I love podcast interviews because they give me the opportunity to answer questions instead of just present my opinions."
     >
       <div className="space-y-20">
-        <SpeakingSection title="Conferences">
+        <speakingSection title="Conferences">
           <Appearance
             href="#"
             title="In space, no one can watch you stream — until now"
@@ -68,8 +68,8 @@ export default function Speaking() {
             event="Business of Startups 2020"
             cta="Watch video"
           />
-        </SpeakingSection>
-        <SpeakingSection title="Podcasts">
+        </speakingSection>
+        <speakingSection title="Podcasts">
           <Appearance
             href="#"
             title="Using design as a competitive advantage"
@@ -91,7 +91,7 @@ export default function Speaking() {
             event="How They Work Radio, September 2021"
             cta="Listen to podcast"
           />
-        </SpeakingSection>
+        </speakingSection>
       </div>
     </SimpleLayout>
   )

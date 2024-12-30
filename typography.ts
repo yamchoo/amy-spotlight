@@ -140,7 +140,7 @@ export default function typographyStyles({ theme }: PluginUtils) {
           fontWeight: theme('fontWeight.bold'),
         },
 
-        // Quotes
+        // speaking
         blockquote: {
           paddingLeft: theme('spacing.6'),
           borderLeftWidth: theme('borderWidth.2'),

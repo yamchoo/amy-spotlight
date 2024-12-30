@@ -243,11 +243,11 @@ function Resume() {
 function Photos() {
    // Each object in this array has both the image source and a destination link.
    const imageCards = [
-    { src: image1, href: '/first-destination' },
-    { src: image5, href: '/second-destination' },
-    { src: image2, href: '/third-destination' },
-    { src: image4, href: '/fourth-destination' },
-    { src: image3, href: '/fifth-destination' },
+    { src: image1, href: '#' },
+    { src: image5, href: '/articles/electric-unicycles' },
+    { src: image2, href: '/articles/book-club' },
+    { src: image4, href: '/articles/travel-adventures' },
+    { src: image3, href: '/articles/tiny-homes' },
   ]
 
   let rotations = ['rotate-2', '-rotate-2', 'rotate-2', 'rotate-2', '-rotate-2']
