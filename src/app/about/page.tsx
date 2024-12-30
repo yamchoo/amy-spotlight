@@ -27,9 +27,9 @@ function SocialLink({
     <li className={clsx(className, 'flex')}>
       <Link
         href={href}
-        className="group flex text-sm font-medium text-zinc-800 transition hover:text-teal-500 dark:text-zinc-200 dark:hover:text-teal-500"
+        className="group flex text-sm font-medium text-zinc-800 transition hover:text-pink-500 dark:text-zinc-200 dark:hover:text-pink-500"
       >
-        <Icon className="h-6 w-6 flex-none fill-zinc-500 transition group-hover:fill-teal-500" />
+        <Icon className="h-6 w-6 flex-none fill-zinc-500 transition group-hover:fill-pink-500" />
         <span className="ml-4">{children}</span>
       </Link>
     </li>
@@ -68,59 +68,41 @@ export default function About() {
           </div>
         </div>
         <div className="lg:order-first lg:row-span-2">
-          <h1 className="text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc-100">
-            I’m Amy Chou. I live in Vancouver, where I design the
-            future.
+        <h1 className="text-4xl font-['Poppins'] tracking-tight inline-block bg-gradient-to-r bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-pink-500 to-90% bg-clip-text text-7xl text-transparent sm:text-5xl dark:inline-block bg-gradient-to-r bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-pink-500 to-90% bg-clip-text text-7xl text-transparent">
+           Impact is my thing.
           </h1>
           <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
             <p>
-              I’ve loved making things for as long as I can remember, and wrote
-              my first program when I was 6 years old, just two weeks after my
-              mom brought home the brand new Macintosh LC 550 that I taught
-              myself to type on.
-            </p>
+            I’ve been drawn to design and problem-solving for as long as I can remember. As a kid, I would spend hours rearranging my room, finding ways to make it more functional and cozy—my first experiments in maximizing small spaces.</p>
             <p>
-              The only thing I loved more than computers as a kid was space.
-              When I was 8, I climbed the 40-foot oak tree at the back of our
-              yard while wearing my older sister’s motorcycle helmet, counted
-              down from three, and jumped — hoping the tree was tall enough that
-              with just a bit of momentum I’d be able to get to orbit.
-            </p>
-            <p>
-              I spent the next few summers indoors working on a rocket design,
-              while I recovered from the multiple surgeries it took to fix my
-              badly broken legs. It took nine iterations, but when I was 15 I
-              sent my dad’s Blackberry into orbit and was able to transmit a
-              photo back down to our family computer from space.
-            </p>
-            <p>
-              Today, I’m the founder of Planetaria, where we’re working on
-              civilian space suits and manned shuttle kits you can assemble at
-              home so that the next generation of kids really <em>can</em> make
-              it to orbit — from the comfort of their own backyards.
-            </p>
+In my teenage years, I discovered a love for technology and taught myself basic coding, blending creativity with practicality to bring ideas to life. I’ve always been fascinated by how thoughtful design can simplify our lives and make everyday moments more enjoyable.</p>
+<p>
+One of my favorite projects was helping my family organize our home to create more harmony and efficiency. This experience sparked my passion for helping others transform their spaces, workflows, and environments into places that work better and feel better.</p>
+<p>
+Today, I specialize in blending design and technology to create beautiful, efficient solutions—whether it’s optimizing a small space, crafting a unique brand identity, or building seamless digital experiences. My goal is to make life—at home and work—a little more beautiful and a lot more efficient.</p>
+
+
           </div>
         </div>
         <div className="lg:pl-20">
           <ul role="list">
-            <SocialLink href="#" icon={XIcon}>
+            <SocialLink href="https://x.com/yamchoo" icon={XIcon}>
               Follow on X
             </SocialLink>
-            <SocialLink href="#" icon={InstagramIcon} className="mt-4">
+            <SocialLink href="https://www.instagram.com/amylchoo" icon={InstagramIcon} className="mt-4">
               Follow on Instagram
             </SocialLink>
-            <SocialLink href="#" icon={GitHubIcon} className="mt-4">
+            <SocialLink href="https://github.com/yamchoo" icon={GitHubIcon} className="mt-4">
               Follow on GitHub
             </SocialLink>
-            <SocialLink href="#" icon={LinkedInIcon} className="mt-4">
+            <SocialLink href="https://www.linkedin.com/in/amy-chou-57a5a720/" icon={LinkedInIcon} className="mt-4">
               Follow on LinkedIn
             </SocialLink>
             <SocialLink
-              href="mailto:spencer@planetaria.tech"
+              href="mailto:its.amy.chou@gmail.com"
               icon={MailIcon}
-              className="mt-8 border-t border-zinc-100 pt-8 dark:border-zinc-700/40"
-            >
-              spencer@planetaria.tech
+              className="mt-8 border-t border-zinc-100 pt-8 dark:border-zinc-700/40">
+              its.amy.chou@gmail.com
             </SocialLink>
           </ul>
         </div>

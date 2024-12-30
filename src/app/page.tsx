@@ -129,7 +129,7 @@ function Newsletter() {
           placeholder="Email address"
           aria-label="Email address"
           required
-          className="min-w-0 flex-auto appearance-none rounded-md border border-zinc-900/10 bg-white px-3 py-[calc(theme(spacing.2)-1px)] shadow-md shadow-zinc-800/5 placeholder:text-zinc-400 focus:border-teal-500 focus:outline-none focus:ring-4 focus:ring-teal-500/10 sm:text-sm dark:border-zinc-700 dark:bg-zinc-700/[0.15] dark:text-zinc-200 dark:placeholder:text-zinc-500 dark:focus:border-teal-400 dark:focus:ring-teal-400/10"
+          className="min-w-0 flex-auto appearance-none rounded-md border border-zinc-900/10 bg-white px-3 py-[calc(theme(spacing.2)-1px)] shadow-md shadow-zinc-800/5 placeholder:text-zinc-400 focus:border-pink-500 focus:outline-none focus:ring-4 focus:ring-pink-500/10 sm:text-sm dark:border-zinc-700 dark:bg-zinc-700/[0.15] dark:text-zinc-200 dark:placeholder:text-zinc-500 dark:focus:border-pink-400 dark:focus:ring-pink-400/10"
         />
         <Button type="submit" className="ml-4 flex-none">
           Join
@@ -187,10 +187,10 @@ function Role({ role }: { role: Role }) {
 function Resume() {
   let resume: Array<Role> = [
     {
-      company: 'Planetaria',
-      title: 'CEO',
+      company: 'Shift4',
+      title: 'Product Marketing',
       logo: logoPlanetaria,
-      start: '2019',
+      start: '2024',
       end: {
         label: 'Present',
         dateTime: new Date().getFullYear().toString(),
@@ -198,7 +198,7 @@ function Resume() {
     },
     {
       company: 'Eigen Payments',
-      title: 'Marketing & Design Specialist',
+      title: 'Marketing & Product Design',
       logo: logoAirbnb,
       start: '2013',
       end: '2024',
@@ -244,7 +244,7 @@ function Photos() {
   return (
     <div className="mt-16 sm:mt-20">
       <div className="-my-4 flex justify-center gap-5 overflow-hidden py-4 sm:gap-8">
-        {[image1, image2, image3, image4, image5].map((image, imageIndex) => (
+        {[image1, image5, image2, image4, image3].map((image, imageIndex) => (
           <div
             key={image.src}
             className={clsx(
@@ -272,25 +272,28 @@ export default async function Home() {
     <>
       <Container className="mt-9">
         <div className="max-w-2xl">
-          <h1 className="text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc-100">
-          Designing Beautiful, Efficient Solutions for Life and Work.
+          <h1 className="text-4xl font-['Poppins'] tracking-tight inline-block bg-gradient-to-r bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-pink-500 to-90% bg-clip-text text-7xl text-transparent sm:text-5xl dark:inline-block bg-gradient-to-r bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-pink-500 to-90% bg-clip-text text-7xl text-transparent">
+          Creating Beautiful, Efficient Solutions for Life and Work.
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-          I’m Amy, a marketing-minded design guru passionate about making everyday life beautiful and efficient. Based in Vancouver, BC, I develop processes and technologies that empower people to transform their spaces and workflows through creativity, technology, and thoughtful design.          </p>
+          I’m Amy, a marketing-minded designer passionate about creating real-life solutions to everyday problems. Based in Vancouver, BC, I develop processes and technologies that empower people to transform their spaces and workflows through creativity, technology, and thoughtful design.          </p>
           <div className="mt-6 flex gap-6">
-            <SocialLink href="#" aria-label="Follow on X" icon={XIcon} />
+            <SocialLink href="https://x.com/yamchoo" target="_blank" aria-label="Follow on X" icon={XIcon} />
             <SocialLink
-              href="#"
+              href="https://www.instagram.com/amylchoo"
+              target="_blank" 
               aria-label="Follow on Instagram"
               icon={InstagramIcon}
             />
             <SocialLink
-              href="#"
+              href="https://github.com/yamchoo"
+              target="_blank" 
               aria-label="Follow on GitHub"
               icon={GitHubIcon}
             />
             <SocialLink
-              href="#"
+              href="https://www.linkedin.com/in/amy-chou-57a5a720/"
+              target="_blank" 
               aria-label="Follow on LinkedIn"
               icon={LinkedInIcon}
             />
