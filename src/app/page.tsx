@@ -109,13 +109,14 @@ function SocialLink({
     </Link>
   )
 }
+
 function Newsletter() {
   return (
     <form
       action="https://formspree.io/f/xy12345_next=https://amychou.netlify.app/thank-you"
-      method="POST"
       className="rounded-2xl border border-zinc-100 p-6 dark:border-zinc-700/40"
-    >
+      method="POST"
+     >
       <h2 className="flex text-sm font-semibold text-zinc-900 dark:text-zinc-100">
         <MailIcon className="h-6 w-6 flex-none" />
         <span className="ml-3">Stay up to date</span>
@@ -126,7 +127,7 @@ function Newsletter() {
       <div className="mt-6 flex">
         <input
           type="email"
-          name="email"               {/* <-- Add this name attribute */}
+          name="email"
           placeholder="Email address"
           aria-label="Email address"
           required
@@ -139,7 +140,6 @@ function Newsletter() {
     </form>
   )
 }
-
 
 interface Role {
   company: string
