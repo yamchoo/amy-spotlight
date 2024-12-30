@@ -115,7 +115,7 @@ function Newsletter() {
     <form
       action="/thank-you"
       className="rounded-2xl border border-zinc-100 p-6 dark:border-zinc-700/40"
-    >
+    netlify>
       <h2 className="flex text-sm font-semibold text-zinc-900 dark:text-zinc-100">
         <MailIcon className="h-6 w-6 flex-none" />
         <span className="ml-3">Stay up to date</span>
@@ -271,6 +271,8 @@ export default async function Home() {
   return (
     <>
       <Container className="mt-9">
+
+
         <div className="max-w-2xl">
           <h1 className="text-4xl font-['Poppins'] tracking-tight inline-block bg-gradient-to-r bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-pink-500 to-90% bg-clip-text text-7xl text-transparent sm:text-5xl dark:inline-block bg-gradient-to-r bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-pink-500 to-90% bg-clip-text text-7xl text-transparent">
           Creating Beautiful, Efficient Solutions for Life and Work.
