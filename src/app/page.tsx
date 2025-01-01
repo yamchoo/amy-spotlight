@@ -254,27 +254,28 @@ function Photos() {
 
   return (
     <div className="mt-16 sm:mt-20">
-      <div className="-my-4 flex justify-center gap-5 overflow-hidden py-4 sm:gap-8">
-        {imageCards.map((card, index) => (
-          <a
-            // Use a unique key; if these images are static imports, card.src.src is unique
-            key={card.src.src}
-            href={card.href}
-            className={clsx(
-              'relative aspect-[9/10] w-44 flex-none overflow-hidden rounded-xl bg-zinc-100 sm:w-72 sm:rounded-2xl dark:bg-zinc-800',
-              rotations[index % rotations.length]
-            )}
-          >
-            <Image
-              src={card.src}
-              alt=""
-              sizes="(min-width: 640px) 18rem, 11rem"
-              className="absolute inset-0 h-full w-full object-cover"
-            />
-          </a>
-        ))}
-      </div>
+    <div
+      className="flex gap-5 overflow-x-scroll scrollbar-hide snap-x snap-mandatory touch-pan-x py-4 sm:gap-8"
+    >
+      {imageCards.map((card, index) => (
+        <a
+          key={card.src.src} // Ensure this is a unique key
+          href={card.href}
+          className={clsx(
+            'relative aspect-[9/10] w-44 flex-none overflow-hidden rounded-xl bg-zinc-100 snap-center sm:w-72 sm:rounded-2xl dark:bg-zinc-800',
+            rotations[index % rotations.length]
+          )}
+        >
+          <Image
+            src={card.src}
+            alt=""
+            sizes="(min-width: 640px) 18rem, 11rem"
+            className="absolute inset-0 h-full w-full object-cover"
+          />
+        </a>
+      ))}
     </div>
+  </div>
   )
 }
 
