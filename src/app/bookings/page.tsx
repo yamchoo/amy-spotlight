@@ -46,12 +46,11 @@ export default function Uses() {
       intro="I get asked a lot about the things I use to build software, stay productive, or buy to fool myself into thinking I’m being productive when I’m really just procrastinating. Here’s a big list of all of my favorite stuff."
     >
 
-
-  <iframe 
-    src="https://cal.com/yamchoo" 
-    class="w-full h-[1000px] border rounded-lg shadow-lg"
-    allowfullscreen>
-  </iframe>
+<iframe 
+  src="https://cal.com/yamchoo" 
+  className="w-full h-[1000px] border rounded-lg shadow-lg"
+  allowFullScreen>
+</iframe>
 
     </SimpleLayout>
   )
