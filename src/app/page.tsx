@@ -265,6 +265,11 @@ function Photos() {
             'relative aspect-[9/10] w-44 flex-none overflow-hidden rounded-xl bg-zinc-100 snap-center sm:w-72 sm:rounded-2xl dark:bg-zinc-800',
             rotations[index % rotations.length]
           )}
+          style={{
+            WebkitMaskImage: 'radial-gradient(circle, white 100%, transparent 100%)',
+            WebkitMaskComposite: 'destination-in',
+            maskComposite: 'exclude',
+          }}
         >
           <Image
             src={card.src}
