@@ -253,10 +253,10 @@ function Photos() {
   let rotations = ['rotate-2', '-rotate-2', 'rotate-2', 'rotate-2', '-rotate-2']
 
   return (
-    <div className="mt-16 sm:mt-20">
+    <div className="flex justify-center items-center mt-16 sm:mt-20">
     <div
       className="flex gap-5 overflow-x-scroll scrollbar-hide snap-x snap-mandatory touch-pan-x py-4 sm:gap-8"
-    >
+    > 
       {imageCards.map((card, index) => (
         <a
           key={card.src.src} // Ensure this is a unique key
