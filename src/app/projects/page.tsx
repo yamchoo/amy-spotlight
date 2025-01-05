@@ -7,7 +7,7 @@ import logoAnimaginary from '@/images/logos/animaginary.svg'
 import logoCosmos from '@/images/logos/cosmos.svg'
 import logoHelioStream from '@/images/logos/helio-stream.svg'
 import logoOpenShuttle from '@/images/logos/open-shuttle.svg'
-import logoPlanetaria from '@/images/logos/planetaria.svg'
+import logoEigen from '@/images/logos/eigen.svg'
 
 const projects = [
   {
@@ -15,7 +15,7 @@ const projects = [
     description:
       'Employee Orientation.',
     link: { href: 'http://planetaria.tech', label: 'planetaria.tech' },
-    logo: logoPlanetaria,
+    logo: logoEigen,
   },
   {
     name: 'Epoch 2',
