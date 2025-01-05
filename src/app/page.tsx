@@ -20,6 +20,7 @@ import image2 from '@/images/photos/image-2.jpg'
 import image3 from '@/images/photos/image-3.jpg'
 import image4 from '@/images/photos/image-4.jpg'
 import image5 from '@/images/photos/image-5.jpg'
+import portrait from '@/images/photos/portrait.jpg'
 import { type ArticleWithSlug, getAllArticles } from '@/lib/articles'
 import { formatDate } from '@/lib/formatDate'
 
@@ -250,7 +251,7 @@ function Photos() {
     { src: image3, href: '/articles/tiny-homes' },
   ]
 
-  let rotations = ['rotate-2', '-rotate-2', 'rotate-2', 'rotate-2', '-rotate-2']
+  let rotations = ['rotate-0', '-rotate-0', 'rotate-0', 'rotate-0', '-rotate-0', '-rotate-0']
 
   return (
     <div className="flex justify-center items-center mt-16 sm:mt-20">
