@@ -28,7 +28,7 @@ const projects = [
     name: 'Food Ordering UI',
     description:
       'Graphic Art & Video Production.',
-    link: { href: 'https://play.tailwindcss.com/7NAWBEfSWB?size=808x781', label: 'Tailwind Play Link' },
+    link: { href: 'https://play.tailwindcss.com/7NAWBEfSWB?size=808x781', label: 'Tailwind Play Link', target: '_blank' },
     logo: logoHelioStream,
   },
   {
