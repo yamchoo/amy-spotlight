@@ -11,31 +11,31 @@ import logoEigen from '@/images/logos/eigen.svg'
 
 const projects = [
   {
-    name: 'Epoch 1',
+    name: 'Wine Menu UI',
     description:
-      'Employee Orientation.',
-    link: { href: 'http://planetaria.tech', label: 'planetaria.tech' },
+      'Responsive, snappy, and easy to customize.',
+    link: { href: 'https://play.tailwindcss.com/2uoFsuTTTx?size=988x749', label: 'Tailwind Play Link' },
     logo: logoEigen,
   },
   {
-    name: 'Epoch 2',
+    name: 'Kiosk Splash Screen',
     description:
-      'Product Design',
-    link: { href: '#', label: 'github.com' },
+      'Kiosk splash screen',
+    link: { href: 'https://play.tailwindcss.com/GJIYaIzD34?size=826x1327&file=config', label: 'Tailwind Play Link' },
     logo: logoAnimaginary,
   },
   {
-    name: 'Epoch 3',
+    name: 'Food Ordering UI',
     description:
       'Graphic Art & Video Production.',
-    link: { href: '#', label: 'github.com' },
+    link: { href: 'https://play.tailwindcss.com/7NAWBEfSWB?size=808x781', label: 'Tailwind Play Link' },
     logo: logoHelioStream,
   },
   {
-    name: 'Epoch 4',
+    name: 'Themed Food Ordering UI',
     description:
       'Solutions Presentation & Marketing',
-    link: { href: '#', label: 'github.com' },
+    link: { href: 'https://play.tailwindcss.com/1TEFoBOUY0?size=932x781', label: 'Tailwind Play Link' },
     logo: logoCosmos,
   },
   {
@@ -75,11 +75,11 @@ export default function Projects() {
       >
         {projects.map((project) => (
           <Card as="li" key={project.name}>
-            <div className="relative z-10 flex h-12 w-12 items-center justify-center rounded-full bg-white shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0">
+            <div className="relative z-10 flex h-20 w-20 items-center justify-center rounded-full bg-white shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0">
               <Image
                 src={project.logo}
                 alt=""
-                className="h-8 w-8"
+                className="h-20 w-20"
                 unoptimized
               />
             </div>
