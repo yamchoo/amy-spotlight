@@ -11,10 +11,10 @@ import {
   LinkedInIcon,
   XIcon,
 } from '@/components/SocialIcons'
-import logoAirbnb from '@/images/logos/airbnb.svg'
-import logoFacebook from '@/images/logos/facebook.svg'
-import logoPlanetaria from '@/images/logos/planetaria.svg'
-import logoStarbucks from '@/images/logos/starbucks.svg'
+import logoEigen from '@/images/logos/eigen.svg'
+import logoCIP from '@/images/logos/cip.png'
+import logoShift4 from '@/images/logos/shift4.svg'
+import logoSOASystems from '@/images/logos/soa.png'
 import image1 from '@/images/photos/image-1.jpg'
 import image2 from '@/images/photos/image-2.jpg'
 import image3 from '@/images/photos/image-3.jpg'
@@ -192,7 +192,7 @@ function Resume() {
     {
       company: 'Shift4',
       title: 'Product Marketing',
-      logo: logoPlanetaria,
+      logo: logoShift4,
       start: '2024',
       end: {
         label: 'Present',
@@ -202,22 +202,22 @@ function Resume() {
     {
       company: 'Eigen Payments',
       title: 'Marketing & Product Design',
-      logo: logoAirbnb,
+      logo: logoEigen,
       start: '2013',
       end: '2024',
     },
     {
-      company: 'Facebook',
-      title: 'iOS Software Engineer',
-      logo: logoFacebook,
-      start: '2011',
-      end: '2014',
+      company: 'Center for Industrial Progress',
+      title: 'Marketing & Digital Media Specialist',
+      logo: logoCIP,
+      start: '2012',
+      end: '2013',
     },
     {
-      company: 'Starbucks',
-      title: 'Shift Supervisor',
-      logo: logoStarbucks,
-      start: '2008',
+      company: 'Arcitura (Formerly SOA Systems)',
+      title: 'Communications Media Specialist',
+      logo: logoSOASystems,
+      start: '2010',
       end: '2011',
     },
   ]
