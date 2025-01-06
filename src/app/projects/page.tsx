@@ -14,28 +14,28 @@ const projects = [
     name: 'Wine Menu UI',
     description:
       'Responsive, snappy, and easy to customize.',
-    link: { href: 'https://play.tailwindcss.com/2uoFsuTTTx?size=988x749', label: 'Tailwind Play Link' },
+    link: { href: 'https://play.tailwindcss.com/2uoFsuTTTx?layout=preview&size=914x749', label: 'Tailwind Play Link' },
     logo: logoEigen,
   },
   {
     name: 'Kiosk Splash Screen',
     description:
       'Kiosk splash screen',
-    link: { href: 'https://play.tailwindcss.com/GJIYaIzD34?size=826x1327&file=config', label: 'Tailwind Play Link' },
+    link: { href: 'https://play.tailwindcss.com/GJIYaIzD34?layout=preview&size=816x1327&file=config', label: 'Tailwind Play Link' },
     logo: logoAnimaginary,
   },
   {
     name: 'Food Ordering UI',
     description:
       'Graphic Art & Video Production.',
-    link: { href: 'https://play.tailwindcss.com/7NAWBEfSWB?size=808x781', label: 'Tailwind Play Link' },
+    link: { href: 'https://play.tailwindcss.com/UPvlIcDVCU?layout=preview&size=540x720&file=css', label: 'Tailwind Play Link' },
     logo: logoHelioStream,
   },
   {
     name: 'Themed Food Ordering UI',
     description:
       'Solutions Presentation & Marketing',
-    link: { href: 'https://play.tailwindcss.com/1TEFoBOUY0?size=932x781', label: 'Tailwind Play Link' },
+    link: { href: 'https://play.tailwindcss.com/YUqQcTuxzq?layout=preview&size=498x781&file=css', label: 'Tailwind Play Link' },
     logo: logoCosmos,
   },
   {
