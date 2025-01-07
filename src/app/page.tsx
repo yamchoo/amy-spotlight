@@ -15,11 +15,11 @@ import logoEigen from '@/images/logos/eigen.svg'
 import logoCIP from '@/images/logos/cip.png'
 import logoShift4 from '@/images/logos/shift4.svg'
 import logoSOASystems from '@/images/logos/soa.png'
-import image1 from '@/images/photos/image-1.jpg'
-import image2 from '@/images/photos/image-2.jpg'
-import image3 from '@/images/photos/image-3.jpg'
-import image4 from '@/images/photos/image-4.jpg'
-import image5 from '@/images/photos/image-5.jpg'
+import image1 from '@/images/photos/image-1.png'
+import image2 from '@/images/photos/image-12.png'
+import image3 from '@/images/photos/image-3.png'
+import image4 from '@/images/photos/image-4.png'
+import image5 from '@/images/photos/image-2.png'
 import portrait from '@/images/photos/portrait.jpg'
 import { type ArticleWithSlug, getAllArticles } from '@/lib/articles'
 import { formatDate } from '@/lib/formatDate'
@@ -245,10 +245,10 @@ function Photos() {
    // Each object in this array has both the image source and a destination link.
    const imageCards = [
     { src: image1, href: '#' },
-    { src: image5, href: '/articles/electric-unicycles' },
-    { src: image2, href: '/articles/book-club' },
-    { src: image4, href: '/articles/travel-adventures' },
-    { src: image3, href: '/articles/tiny-homes' },
+    { src: image5, href: '/articles/design-systems' },
+    { src: image3, href: '/articles/design-systems' },
+    { src: image4, href: '/articles/design-systems' },
+    { src: image2, href: '/articles/design-systems' },
   ]
 
   let rotations = ['rotate-0', '-rotate-0', 'rotate-0', 'rotate-0', '-rotate-0', '-rotate-0']
@@ -302,7 +302,7 @@ export default async function Home() {
           Creating beautiful, efficient solutions for life and work.
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-          I’m Amy, a marketing-minded designer passionate about creating real-life solutions to everyday problems. Based in Vancouver, BC, I develop processes and technologies that empower people to transform their spaces and workflows through creativity, technology, and thoughtful design.          </p>
+          I’m Amy, a marketing-minded designer passionate about creating real-life solutions to everyday problems. Based in Vancouver, BC, I develop processes and technologies that empower people to transform their spaces, workflows, and everyday experiences through creativity, technology, and thoughtful design.          </p>
           <div className="mt-6 flex gap-6">
             <SocialLink href="https://x.com/yamchoo" target="_blank" aria-label="Follow on X" icon={XIcon} />
             <SocialLink

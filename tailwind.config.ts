@@ -2,6 +2,7 @@ import typographyPlugin from '@tailwindcss/typography'
 import scrollbarHide from 'tailwind-scrollbar-hide'
 import { type Config } from 'tailwindcss'
 
+
 import typographyStyles from './typography'
 
 export default {
