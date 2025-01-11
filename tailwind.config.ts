@@ -6,9 +6,9 @@ import { type Config } from 'tailwindcss'
 import typographyStyles from './typography'
 
 export default {
-  content: ['./src/**/*.{js,jsx,ts,tsx}'],
+  content: ['./src/**/*.{js,jsx,ts,tsx,mdx}'],
   darkMode: 'selector',
-  plugins: [typographyPlugin, scrollbarHide],
+  plugins: [typographyPlugin, scrollbarHide, require('daisyui')],
   theme: {
     fontSize: {
       xs: ['0.8125rem', { lineHeight: '1.5rem' }],
