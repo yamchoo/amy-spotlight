@@ -263,7 +263,7 @@ function Photos() {
           key={card.src.src} // Ensure this is a unique key
           href={card.href}
           className={clsx(
-            'relative aspect-[9/10] w-44 flex-none overflow-hidden rounded-xl bg-zinc-100 snap-center sm:w-72 sm:rounded-2xl dark:bg-zinc-800',
+            'relative aspect-[9/10] w-44 flex-none overflow-hidden rounded-xl bg-zinc-100 snap-center sm:w-72 sm:rounded-2xl dark:bg-zinc-950',
             rotations[index % rotations.length]
           )}
           style={{
