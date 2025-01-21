@@ -43,7 +43,7 @@ export default function Uses() {
   return (
     <SimpleLayout
       title="This is my booking tool, check it out!"
-      intro="I get asked a lot about the things I use to build software, stay productive, or buy to fool myself into thinking I’m being productive when I’m really just procrastinating. Here’s a big list of all of my favorite stuff."
+      intro="Want to get a hold of me? Book time with me here."
     >
 
 <iframe 
