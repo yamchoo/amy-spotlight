@@ -13,7 +13,7 @@ export const metadata: Metadata = {
       'Amy Chou - Designer, Innovator, and Space-Saving Visionary',
   },
   description:
-    'I’m Amy, a marketing-minded designer who is obsessed with making all things beautiful and efficient. I am based in Vancouver BC and the founder and CEO of tinywares, where we develop processes & technologies that empower regular people to make beauty an everyday experience at home and at work. Combining creativity, technology, and thoughtful design to transform spaces, workflows, and systems is my jam.',
+    'I’m Amy, a marketing-minded designer passionate about creating real-life solutions to everyday problems. Based in Vancouver, BC, I develop processes and technologies that empower people to transform their spaces, workflows, and everyday experiences through creativity, technology, and thoughtful design.',
   alternates: {
     types: {
       'application/rss+xml': `${process.env.NEXT_PUBLIC_SITE_URL}/feed.xml`,
