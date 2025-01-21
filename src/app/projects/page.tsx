@@ -27,24 +27,18 @@ const projects = [
   {
     name: 'Food Ordering UI',
     description:
-      'Graphic Art & Video Production.',
+      'Optimized for desktop and mobile',
     link: { href: 'https://play.tailwindcss.com/UPvlIcDVCU?layout=preview&size=540x720&file=css', label: 'Tailwind Play Link' },
     logo: logoHelioStream,
   },
   {
     name: 'Themed Food Ordering UI',
     description:
-      'Solutions Presentation & Marketing',
+      'Easy to skin code',
     link: { href: 'https://play.tailwindcss.com/YUqQcTuxzq?layout=preview&size=498x781&file=css', label: 'Tailwind Play Link' },
     logo: logoCosmos,
   },
-  {
-    name: 'Epoch 5',
-    description:
-      'Creative Services & Solutions',
-    link: { href: '#', label: 'github.com' },
-    logo: logoOpenShuttle,
-  },
+ 
 ]
 
 function LinkIcon(props: React.ComponentPropsWithoutRef<'svg'>) {
