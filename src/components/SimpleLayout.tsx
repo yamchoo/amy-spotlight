@@ -1,7 +1,7 @@
 import { Container } from '@/components/Container'
 
 export function SimpleLayout({
-  title,
+  title, 
   intro,
   children,
 }: {
