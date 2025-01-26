@@ -1,6 +1,6 @@
 import { type Metadata } from 'next'
 import PhonePOSWrapper from '@/components/PhonePOSWrapper'
-import { Container, SimpleLayout } from '@/components/Container'
+import { Container } from '@/components/Container'
 
 
 export const metadata: Metadata = {
