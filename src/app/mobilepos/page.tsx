@@ -25,7 +25,7 @@ export default function Projects() {
         <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
          
      <p>
-I’m all about results. Designs need to be easy to implement, so we can get real-world feedback as soon as possible. That's why I decided to learn Tailwind CSS, so I could quickly create useable designs that devs are happy to implement.</p>
+I’m all about results. Designs need to be easy to implement, so we can get real-world feedback as soon as possible. That’s why I decided to learn Tailwind CSS, so I could quickly create useable designs that devs are happy to implement.</p>
 <p>
 My workflow prioritizes implementation, so we can quickly iterate and refine when we get core functionality figured out. </p>
 
