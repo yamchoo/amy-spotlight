@@ -25,6 +25,13 @@ const projects = [
     logo: logoAnimaginary,
   },
   {
+    name: 'Mobile POS',
+    description:
+      'Sample of my work & philosophy',
+    link: { href: '/mobilepos', label: 'Tailwind Play Link' },
+    logo: logoOpenShuttle,
+  },
+  {
     name: 'Food Ordering UI',
     description:
       'Optimized for desktop and mobile',
@@ -38,6 +45,8 @@ const projects = [
     link: { href: 'https://play.tailwindcss.com/YUqQcTuxzq?layout=preview&size=498x781&file=css', label: 'Tailwind Play Link' },
     logo: logoCosmos,
   },
+
+  
  
 ]
 
