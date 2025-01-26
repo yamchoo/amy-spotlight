@@ -11,6 +11,13 @@ import logoEigen from '@/images/logos/eigen.svg'
 
 const projects = [
   {
+    name: 'Mobile POS',
+    description:
+      'Sample of my work & philosophy',
+    link: { href: '/mobilepos', label: 'Tailwind Play Link' },
+    logo: logoOpenShuttle,
+  },
+  {
     name: 'Wine Menu UI',
     description:
       'Responsive, snappy, and easy to customize.',
@@ -24,13 +31,7 @@ const projects = [
     link: { href: 'https://play.tailwindcss.com/GJIYaIzD34?layout=preview&size=816x1327&file=config', label: 'Tailwind Play Link' },
     logo: logoAnimaginary,
   },
-  {
-    name: 'Mobile POS',
-    description:
-      'Sample of my work & philosophy',
-    link: { href: '/mobilepos', label: 'Tailwind Play Link' },
-    logo: logoOpenShuttle,
-  },
+ 
   {
     name: 'Food Ordering UI',
     description:
