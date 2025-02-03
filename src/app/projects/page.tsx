@@ -14,7 +14,7 @@ const projects = [
     name: 'Mobile POS',
     description:
       'Sample of my work & philosophy',
-    link: { href: '/mobilepos', label: 'Tailwind Play Link' },
+    link: { href: '/daisy-ui', label: 'Tailwind Play Link' },
     logo: logoOpenShuttle,
   },
  
