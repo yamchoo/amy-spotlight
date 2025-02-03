@@ -1,5 +1,5 @@
 import { type Metadata } from 'next'
-import PhonePOSWrapper from '@/components/PhonePOSWrapper'
+import PhonePOSWrapperDaisy from '@/components/PhonePOSWrapperDaisy'
 import { Container } from '@/components/Container'
 
 export const metadata: Metadata = {
@@ -13,7 +13,7 @@ export default function Projects() {
       <div className="grid grid-cols-1 gap-y-16 lg:grid-cols-2 lg:grid-rows-[auto_1fr] lg:gap-y-12">
         <div className="lg:pl-20">
           <div className="max-w-xs px-2.5 lg:max-w-none">
-            <PhonePOSWrapper />
+            <PhonePOSWrapperDaisy />
           </div>
         </div>
         <div className="lg:order-first lg:row-span-2">
@@ -33,15 +33,7 @@ export default function Projects() {
             </p>
           </div>
 
-          <div className="card bg-base-100 shadow-md">
-            <div className="card-body">
-              <h2 className="card-title">Explore My Projects</h2>
-              <p>Check out the work I’ve been doing to make life easier for developers and users.</p>
-              <div className="card-actions">
-                <button className="btn btn-primary">Learn More</button>
-              </div>
-            </div>
-          </div>
+     
         </div>
         <div className="lg:pl-20">
           
