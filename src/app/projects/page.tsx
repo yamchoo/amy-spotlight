@@ -10,6 +10,13 @@ import logoOpenShuttle from '@/images/logos/open-shuttle.svg'
 import logoEigen from '@/images/logos/eigen.svg'
 
 const projects = [
+  {
+    name: 'Mobile POS',
+    description:
+      'Sample of my work & philosophy',
+    link: { href: '/mobilepos', label: 'Tailwind Play Link' },
+    logo: logoOpenShuttle,
+  },
  
   {
     name: 'Wine Menu UI',
