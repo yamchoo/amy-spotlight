@@ -191,7 +191,7 @@ function Resume() {
   let resume: Array<Role> = [
     {
       company: 'Shift4',
-      title: 'Product Marketing',
+      title: 'Product Designer',
       logo: logoShift4,
       start: '2024',
       end: {
