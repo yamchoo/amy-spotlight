@@ -37,7 +37,7 @@ export default function PhonePOSWrapper() {
             {/* Screen */}
             <div className="absolute inset-3 rounded-[2rem] overflow-hidden bg-white">
               <iframe
-                src="https://i4tmv9xv6fxgjbn05.lite.vusercontent.net/"
+                src="https://v0design.vercel.app/"
                 className="w-full h-full"
                 style={{ height: iframeHeight }}
                 allow="clipboard-write"
